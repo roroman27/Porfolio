@@ -743,7 +743,7 @@
     <div class="badge"><div class="badge-dot amber"></div>Power BI Expert</div>
     <div class="badge"><div class="badge-dot"></div>ETL Pipelines</div>
     <div class="badge"><div class="badge-dot blue"></div>Web App Development</div>
-    <div class="badge"><div class="badge-dot amber"></div>AI-Assisted Automation</div>
+    <div class="badge"><div class="badge-dot amber"></div>Workflow Automation</div>
   </div>
 </section>
 
@@ -766,7 +766,7 @@
     <div class="exp-card" style="--accent-line: linear-gradient(90deg, #3b82f6, transparent);">
       <div class="exp-icon blue">☁️</div>
       <h3>Azure Cloud & ETL Pipelines</h3>
-      <p>Designing and deploying scalable ETL workflows using Azure Databricks, Storage Accounts, Key Vault, and App Services for secure, automated data flows.</p>
+      <p>Designing and deploying scalable ETL workflows using Azure ecosystem for secure and automated data flows.</p>
       <div class="exp-tags">
         <span class="exp-tag">Azure Databricks</span><span class="exp-tag">Storage Account</span>
         <span class="exp-tag">Key Vault</span><span class="exp-tag">App Services</span><span class="exp-tag">ADF</span>
@@ -774,8 +774,8 @@
     </div>
     <div class="exp-card" style="--accent-line: linear-gradient(90deg, #00c9a7, transparent);">
       <div class="exp-icon">🌐</div>
-      <h3>Web App Integration</h3>
-      <p>Connecting data platforms to user-facing web applications using Appsmith and Azure App Services, turning data pipelines into interactive tools.</p>
+      <h3>Web App Development</h3>
+      <p>Developing efficient and user-friendly web applications, turning data pipelines into interactive tools.</p>
       <div class="exp-tags">
         <span class="exp-tag">Appsmith</span><span class="exp-tag">Azure App Services</span>
         <span class="exp-tag">REST APIs</span><span class="exp-tag">UI/UX</span>
@@ -783,8 +783,8 @@
     </div>
     <div class="exp-card" style="--accent-line: linear-gradient(90deg, #a78bfa, transparent);">
       <div class="exp-icon" style="background: rgba(167,139,250,0.1);">🤖</div>
-      <h3>AI-Assisted Automation</h3>
-      <p>Leveraging AI to write and deploy scripts in Azure Databricks that automate repetitive data tasks, reducing manual effort and increasing reliability.</p>
+      <h3>Workflow Automation</h3>
+      <p>Write and deploy scripts that automate repetitive data tasks, reducing manual effort and increasing reliability.</p>
       <div class="exp-tags">
         <span class="exp-tag">Python</span><span class="exp-tag">PySpark</span>
         <span class="exp-tag">Azure Databricks</span><span class="exp-tag">Automation</span>
@@ -814,21 +814,21 @@
               <div class="cs-story-icon icon-problem">🔴</div>
               <div class="cs-story-text">
                 <div class="cs-story-label lbl-problem">The Problem</div>
-                <div class="cs-story-body">A regional home services company managing 3 sales teams across the Midwest had no unified view of performance. Sales directors were making compensation and staffing decisions based on gut feel and disconnected Excel files — with no visibility into which teams, advisors, or lead sources were actually driving revenue.</div>
+                <div class="cs-story-body"A client managing 3 sales teams across the Midwest had no unified view of performance. Sales directors were making compensation and staffing decisions based on gut feel and disconnected Excel files — with no visibility into which teams, advisors, or lead sources were actually driving revenue.</div>
               </div>
             </div>
             <div class="cs-story-item">
               <div class="cs-story-icon icon-solution">🔵</div>
               <div class="cs-story-text">
                 <div class="cs-story-label lbl-solution">What I Built</div>
-                <div class="cs-story-body">A 4-page interactive Power BI report connecting Sales, Appointments, Leads, and Transactions into a single star-schema model. Built DAX measures for YTD/MTD revenue, close rate, average deal value, and average revenue per appointment — all filterable by team, date range, and lead vendor. Added conditional formatting on the performance table so underperforming teams are flagged instantly in red.</div>
+                <div class="cs-story-body">Built an interactive, multi-page Power BI report powered by an end-to-end ETL pipeline. Data is extracted daily from the company's CRM platform and Sage ERP — pulling millions of rows of sales, lead, and transaction records — transformed using PySpark and SQL in Azure Databricks, and loaded into a clean gold-layer view consumed directly by Power BI. Reports refresh automatically every morning so leadership always starts the day with current numbers.</div>
               </div>
             </div>
             <div class="cs-story-item">
               <div class="cs-story-icon icon-impact">🟢</div>
               <div class="cs-story-text">
                 <div class="cs-story-label lbl-impact">The Impact</div>
-                <div class="cs-story-body">Leadership gained a single source of truth updated daily. The team performance table — with green/yellow/red conditional formatting on Avg $/Deal — eliminated weekly reporting meetings. The vendor quadrant analysis revealed HomeAdvisor delivered 34% of all leads at a 42%+ close rate, informing a reallocation of the lead budget worth $200K+.</div>
+                <div class="cs-story-body">Leadership gained a single source of truth for sales performance across all teams and regions. The team performance table — with green/yellow/red conditional formatting on Average $/Deal — made underperformance immediately visible and eliminated the need for weekly manual reporting meetings. The built-in forecasting feature gives managers a reliable projection of expected revenue for the coming months and fiscal year, resulting in more accurate budgeting.</div>
               </div>
             </div>
           </div>
@@ -970,14 +970,14 @@
             <div class="cs-story-icon icon-problem">🔴</div>
             <div class="cs-story-text">
               <div class="cs-story-label lbl-problem">The Problem</div>
-              <div class="cs-story-body">Finance had no real-time view of net collected revenue vs. gross sales. Refunds and chargebacks were tracked in a separate spreadsheet, causing a persistent gap between what sales reported and what accounting actually received.</div>
+              <div class="cs-story-body">Finance had no real-time view of net collected revenue vs. gross sales as well as refunds, causing a persistent gap between what sales reported and what accounting actually received.</div>
             </div>
           </div>
           <div class="cs-story-item">
             <div class="cs-story-icon icon-solution">🔵</div>
             <div class="cs-story-text">
               <div class="cs-story-label lbl-solution">What I Built</div>
-              <div class="cs-story-body">A Transactions page in Power BI surfacing Net Payment vs. Overall Sales KPI cards, a transaction-type breakdown bar chart (Payments vs. Refunds vs. Chargebacks), a monthly net payment trend line, and a sortable transaction detail table — all linked to the same UUID-based data model and filterable by date.</div>
+              <div class="cs-story-body">A Transactions page in Power BI surfacing Net Payment vs. Overall Sales KPI cards, a transaction-type breakdown bar chart (Payments vs. Refunds), a monthly net payment trend line, and a sortable transaction detail table — all linked to the same UUID-based data model and filterable by date.</div>
             </div>
           </div>
           <div class="cs-story-item">
@@ -1035,7 +1035,7 @@
               <div class="cs-story-icon icon-solution">🔵</div>
               <div class="cs-story-text">
                 <div class="cs-story-label lbl-solution">What I Built</div>
-                <div class="cs-story-body">Built a fully automated end-to-end ETL pipeline that eliminates the manual process entirely. A Python script authenticates with the UKG API and extracts employee records on a scheduled basis, filtering for employees whose birthdays fall in the following calendar month. The relevant fields — full name and mailing address — are transformed and saved into a Delta table in Azure Databricks (mishbricks.ukg.birthdaylabel), giving the company a clean, auditable record of every run. At the end of the pipeline, a Python script generates a properly formatted Microsoft Word document structured to Avery 5160 label specifications (3 columns × 10 rows, 30 labels per page) and delivers it automatically to the HR manager's inbox via email — ready to print, no manual steps required.</div>
+                <div class="cs-story-body">Built a fully automated end-to-end ETL pipeline that eliminates the manual process entirely. A Python script authenticates with the UKG API and extracts employee records on a scheduled basis, filtering for employees whose birthdays fall in the following calendar month. The relevant fields — full name and mailing address — are transformed and saved into a Delta table in Azure Databricks, giving the company a clean, auditable record of every run. At the end of the pipeline, a Python script generates a properly formatted Microsoft Word document structured to Avery 5160 label specifications (3 columns × 10 rows, 30 labels per page) and delivers it automatically to the HR manager's inbox via email — ready to print, no manual steps required.</div>
               </div>
             </div>
             <div class="cs-story-item">
@@ -1224,7 +1224,7 @@
         <div class="cred-issuer">Graduate Degree</div>
       </div>
       <div class="cred-title">Master of Business Administration</div>
-      <div class="cred-sub">MBA · [Your University]</div>
+      <div class="cred-sub">MBA · Ming Chuan University</div>
       <p class="cred-desc">Graduate-level training in business strategy, financial management, operations, and organizational leadership — providing the business context that makes data analysis actionable at the executive level.</p>
       <div class="cred-tags">
         <span class="cred-tag">Business Strategy</span>
@@ -1244,7 +1244,7 @@
         <div class="cred-issuer">Undergraduate Degree</div>
       </div>
       <div class="cred-title">Bachelor of Industrial Engineering</div>
-      <div class="cred-sub">B.S. Industrial Engineering · [Your University]</div>
+      <div class="cred-sub">B.S. Industrial Engineering · Universite Quisqueya</div>
       <p class="cred-desc">Foundational training in process optimization, systems thinking, statistical analysis, and operational efficiency — the analytical backbone behind every pipeline, workflow, and automation project I build.</p>
       <div class="cred-tags">
         <span class="cred-tag">Process Optimization</span>
@@ -1284,17 +1284,17 @@
     <div class="service-item">
       <div class="service-num">04</div>
       <h3>Report Modernization</h3>
-      <p>Migrating legacy Excel or SSRS reports to interactive Power BI reports with live data connections and self-service filtering.</p>
+      <p>Migrating legacy Excel to interactive Power BI reports with live data connections and self-service filtering.</p>
     </div>
     <div class="service-item">
       <div class="service-num">05</div>
-      <h3>Web App + Data Integration</h3>
-      <p>Connecting your data backend to front-end tools like Appsmith, enabling non-technical teams to interact with live data.</p>
+      <h3>Web App Development</h3>
+      <p>Developping efficient and user-friendly webb app, enabling non-technical teams to interact with live data.</p>
     </div>
     <div class="service-item">
       <div class="service-num">06</div>
       <h3>Automation Scripting</h3>
-      <p>Writing AI-assisted Python/PySpark scripts in Azure Databricks to eliminate manual reporting and data prep tasks.</p>
+      <p>Writing Python/PySpark scripts to eliminate manual reporting and data prep tasks.</p>
     </div>
   </div>
 </section>
@@ -1324,8 +1324,7 @@
       </div>
     </div>
     <div class="agency-note">
-      <strong>Staffing &amp; Recruiting Agencies:</strong> I am actively seeking contract and full-time Data Analyst roles with a focus on Power BI, Azure, and business intelligence. I hold a valid PL-300 certification and am available for placement in the Greater Lafayette/Indianapolis area or remote engagements. Please reach out directly.
-    </div>
+      <strong>Staffing &amp; Recruiting Agencies:</strong> PS: While the cases are accurate, the underlying date are modified so that client sensitive data are not revealed.    </div>
   </div>
 </section>
 
